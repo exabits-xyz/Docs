@@ -9,5 +9,5 @@ exaBITS is a decentralized computing network powered by blockchain. It provides 
 * Consumers use exaBITS Computing Machines to contribute computing power to a pooled computing network and generate passive income. 
 * Developers and enterprises obtain computation on demand from exaBITS Cloud that is safer, cheaper and faster than the offerings of leading cloud providers.
 
-## Miners
+## Mine
 By deploying a simple device in your home or office, individuals can provide the city with miles of high-quality and low-emissions computing service for millions of users and earn a new cryptocurrency, XBIT.
