@@ -5,6 +5,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
+
 const config = {
     title: "exaBITS Documentation",
     tagline:
@@ -38,6 +39,12 @@ const config = {
             "classic",
             /** @type {import('@docusaurus/preset-classic').Options} */
             ({
+                docs: {
+                    path: "docs",
+                    routeBasePath: "/",
+                    sidebarPath: require.resolve("./sidebars.js"),
+                    breadcrumbs: true,
+                },
                 theme: {
                     customCss: require.resolve("./src/css/custom.css"),
                 },
@@ -55,7 +62,7 @@ const config = {
                 logo: {
                     alt: "exaBITS Documentation",
                     src: "img/logo.png",
-                    href: "docs/introduction/what-is-exabits",
+                    href: "introduction/what-is-exabits",
                 },
                 items: [
                     {
