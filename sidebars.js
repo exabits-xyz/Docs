@@ -33,6 +33,26 @@ const sidebars = {
                 "background/what-is-the-difference-between-computing-and-storage",
             ],
         },
+        {
+            type: "category",
+            label: "usecase",
+            items: ["usecase/ai-is-running-out-of-computing-power"],
+        },
+        {
+            type: "category",
+            label: "technology",
+            items: [
+                "technology/a-mutual-computing-network-stack",
+                "technology/dico-a-decentralized-computing-protocol",
+            ],
+        },
+        {
+            type: "category",
+            label: "blog",
+            items: [
+                "blog/decentralized-cloud-computing-project-exabits-incubated-by-harvard-innovation-labs",
+            ],
+        },
     ],
 };
 

@@ -62,7 +62,7 @@ const config = {
                 logo: {
                     alt: "exaBITS Documentation",
                     src: "img/logo.png",
-                    href: "introduction/what-is-exabits",
+                    href: "/",
                 },
                 items: [
                     {
