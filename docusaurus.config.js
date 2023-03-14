@@ -46,12 +46,12 @@ const config = {
                     breadcrumbs: true,
                 },
                 theme: {
-                    customCss: require.resolve("./src/css/custom.css"),
+                    customCss: require.resolve("./src/scss/globals.scss"),
                 },
             }),
         ],
     ],
-
+    plugins: ["docusaurus-plugin-sass"],
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
@@ -80,6 +80,7 @@ const config = {
                 theme: lightCodeTheme,
                 darkTheme: darkCodeTheme,
             },
+            trailingSlash: false,
         }),
 };
 
