@@ -1,19 +1,13 @@
-@include font-face("MarkPro", "/fonts/MarkPro");
-@include font-face("IBMPlexSans", "/fonts/IBMPlexSans-SemiBold", 600);
-@include font-face("IBMPlexSans", "/fonts/IBMPlexSans-Medium", 500);
-@include font-face(
-    "IBMPlexSans",
-    "/fonts/IBMPlexSans-LightItalic",
-    300,
-    italic
-);
-@include font-face("IBMPlexMono", "/fonts/IBMPlexMono-Medium", 500);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,500&display=swap");
 
 :root {
-    --global-font-family: "IBMPlexSans", sans-serif;
-    --global-font-family-alternative: "MarkPro", monospace;
-    --global-block-family-code: "IBMPlexMono", monospace;
-
+    --global-font-family: "Montserrat", sans-serif;
+    --global-font-family-alternative: "Montserrat", monospace;
+    --global-block-family-code: "Montserrat", monospace;
+    --ifm-font-family-base: "Montserrat", -apple-system, Segoe UI, Roboto,
+        Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI",
+        Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol";
     --global-container-default: 1330px;
     --global-container-medium: 1094px;
     --global-container-small: 867px;
@@ -21,7 +15,7 @@
     --global-container-tiny: 640px;
 
     --global-gutter: 25px;
-
+    --global-menu-gutter: 20px;
     --global-colors-charade: #282a36;
     --global-colors-elephant: #0c3636;
     --global-colors-cape: #4b5555;
@@ -51,11 +45,11 @@
 
     --global-border-radius: 6px;
 
-    --global-header-height: 80px;
-    --global-sidebar-width: 300px;
+    --global-header-height: 60px;
+    --global-sidebar-width: 320px;
+    --global-sidebar-spacing: 20px;
     --global-docs-top-spacing: 30px;
     --global-container-spacing-default: 60px;
-
     @include media(tablet up) {
         --global-container-spacing-default: 100px;
     }
