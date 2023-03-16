@@ -36,7 +36,18 @@ const sidebars = {
         {
             type: "category",
             label: "usecase",
-            items: ["usecase/ai-is-running-out-of-computing-power"],
+            items: [
+                {
+                    type: "doc",
+                    label: "Affordable AI",
+                    id: "usecase/ai-is-running-out-of-computing-power",
+                },
+                {
+                    type: "doc",
+                    label: "Blockchain Node",
+                    id: "usecase/distributed-validator-the-backbone-of-blockchain-security",
+                },
+            ],
         },
         {
             type: "category",

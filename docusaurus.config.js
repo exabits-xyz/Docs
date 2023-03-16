@@ -43,6 +43,7 @@ const config = {
                     routeBasePath: "/",
                     sidebarPath: require.resolve("./sidebars.js"),
                     breadcrumbs: true,
+                    sidebarCollapsible: true,
                 },
                 theme: {
                     customCss: require.resolve("./src/scss/globals.scss"),

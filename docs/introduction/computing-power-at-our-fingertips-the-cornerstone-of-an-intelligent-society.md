@@ -6,10 +6,18 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Computing Power at Our Fingertips: The Cornerstone of An Intelligent Society
 
-<img
-src={useBaseUrl('./img/assets/images/computing-power.webp')}
-alt="Photo credit — Automation Engineer"
-/>
+<div class="image-content">
+    <div class="image-block">
+        <img
+        src={useBaseUrl('./img/assets/images/computing-power.webp')}
+        alt="Photo credit — Automation Engineer"
+        />
+    
+    </div>
+    <div class="image-block-alt">
+        Photo credit — Automation Engineer
+    </div>
+</div>
 
 The future demand for computing power will be enormous. The undergoing smart society process involves using such key technologies as Artificial intelligence (AI), blockchain, Internet-of-Things (IoT), and Augmented Reality (AR)/Virtual Reality (VR) in different scenarios to boost productivity, improve people’s lives, and make the society more efficient. Wide application of these technologies is bound to engage more computing units, driving computing power to grow steadily. Specifically, by 2030:
 

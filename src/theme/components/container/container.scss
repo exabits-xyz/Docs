@@ -49,6 +49,44 @@
             background-color: var(--global-colors-cararra);
         }
     }
+    .image-content {
+        padding: 16px 0px;
+    }
+    .image-block {
+        padding: 0px 16px;
+        flex-direction: row;
+        align-items: stretch;
+        background-color: rgba(0, 0, 0, 0);
+        border: 0 solid black;
+        box-sizing: border-box;
+        display: flex;
+        position: relative;
+        text-decoration: none;
+        justify-content: center;
+        img {
+            max-width: 100%;
+        }
+        &-alt {
+            margin: 0px;
+            padding: 0px;
+            align-items: stretch;
+            background-color: rgba(0, 0, 0, 0);
+            border: 0 solid black;
+            box-sizing: border-box;
+            display: flex;
+            flex-basis: auto;
+            flex-direction: column;
+            flex-shrink: 0;
+            list-style: none;
+            margin: 0px;
+            min-height: 0px;
+            min-width: 0px;
+            padding: 0px;
+            font-size: 12px;
+            text-align: center;
+            color: rgba(136, 153, 168, 1);
+        }
+    }
 }
 .docItemCol_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module {
     padding: 0px 30px;
