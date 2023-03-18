@@ -43,7 +43,6 @@ const config = {
                     routeBasePath: "/",
                     sidebarPath: require.resolve("./sidebars.js"),
                     breadcrumbs: true,
-                    sidebarCollapsible: true,
                 },
                 theme: {
                     customCss: require.resolve("./src/scss/globals.scss"),
@@ -61,7 +60,7 @@ const config = {
                 title: "exaBITS Documentation",
                 logo: {
                     alt: "exaBITS Documentation",
-                    src: "img/logo.png",
+                    src: "img/logo.webp",
                     href: "/",
                 },
                 items: [

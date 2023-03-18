@@ -23,6 +23,8 @@ const sidebars = {
                 "introduction/what-is-exabits",
                 "introduction/computing-power-at-our-fingertips-the-cornerstone-of-an-intelligent-society",
             ],
+            collapsible: true,
+            collapsed: false,
         },
         {
             type: "category",
@@ -32,6 +34,8 @@ const sidebars = {
                 "background/why-decentralized-computing-can-lower-the-cost-of-ai",
                 "background/what-is-the-difference-between-computing-and-storage",
             ],
+            collapsible: true,
+            collapsed: false,
         },
         {
             type: "category",
@@ -48,6 +52,8 @@ const sidebars = {
                     id: "usecase/distributed-validator-the-backbone-of-blockchain-security",
                 },
             ],
+            collapsible: true,
+            collapsed: false,
         },
         {
             type: "category",
@@ -56,6 +62,8 @@ const sidebars = {
                 "technology/a-mutual-computing-network-stack",
                 "technology/dico-a-decentralized-computing-protocol",
             ],
+            collapsible: true,
+            collapsed: false,
         },
         {
             type: "category",
@@ -63,6 +71,8 @@ const sidebars = {
             items: [
                 "blog/decentralized-cloud-computing-project-exabits-incubated-by-harvard-innovation-labs",
             ],
+            collapsible: true,
+            collapsed: false,
         },
     ],
 };

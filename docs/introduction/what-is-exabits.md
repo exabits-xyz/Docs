@@ -8,9 +8,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 exaBITS is a Decentralized Computing Network for AI and Computationally Intensive Applications.
 
-<div class="image-block">
+<div className="image-block image-block-small">
     <img
-    src={useBaseUrl('img/assets/images/exaBITS.jpg')}
+    src={useBaseUrl('img/assets/images/exaBITS.webp')}
     alt="exaBITS"
     />
 </div>

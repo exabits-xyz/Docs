@@ -1,0 +1,6 @@
+#__docusaurus .breadcrumbs {
+    $this: &;
+    &__link {
+        text-transform: capitalize;
+    }
+}

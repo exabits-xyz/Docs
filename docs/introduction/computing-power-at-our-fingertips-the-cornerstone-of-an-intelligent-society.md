@@ -6,15 +6,15 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Computing Power at Our Fingertips: The Cornerstone of An Intelligent Society
 
-<div class="image-content">
-    <div class="image-block">
+<div className="image-content">
+    <div className="image-block">
         <img
         src={useBaseUrl('./img/assets/images/computing-power.webp')}
         alt="Photo credit — Automation Engineer"
         />
     
     </div>
-    <div class="image-block-alt">
+    <div className="image-block-alt">
         Photo credit — Automation Engineer
     </div>
 </div>
