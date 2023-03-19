@@ -27,3 +27,17 @@ $ yarn build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Depoly
+
+Build docker image.
+
+```
+docker image build -t docs:dev -f Dockerfile .
+```
+
+Docker run
+
+```
+docker run -p 3000:3003 docs:dev
+```

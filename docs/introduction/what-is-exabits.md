@@ -10,7 +10,7 @@ exaBITS is a Decentralized Computing Network for AI and Computationally Intensiv
 
 <div className="image-block image-block-small">
     <img
-    src={useBaseUrl('img/assets/images/exaBITS.webp')}
+    src={useBaseUrl('img/assets/images/exabits.webp')}
     alt="exaBITS"
     />
 </div>
