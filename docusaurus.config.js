@@ -44,8 +44,16 @@ const config = {
                     sidebarPath: require.resolve("./sidebars.js"),
                     breadcrumbs: true,
                 },
+                gtag: {
+                    trackingID: "G-GT15VCVP0Q",
+                    anonymizeIP: true,
+                },
                 theme: {
                     customCss: require.resolve("./src/scss/globals.scss"),
+                },
+                sitemap: {
+                    changefreq: "weekly",
+                    priority: 0.5,
                 },
             }),
         ],
@@ -73,6 +81,11 @@ const config = {
             },
             prism: {
                 theme: darkCodeTheme,
+            },
+            algolia: {
+                appId: "8L5VM30PSY",
+                apiKey: "e45875860302d62fea9639a67ebe0b71",
+                indexName: "exabits",
             },
             colorMode: {
                 disableSwitch: true,

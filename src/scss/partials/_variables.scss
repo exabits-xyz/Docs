@@ -18,7 +18,7 @@
     --global-menu-gutter: 20px;
     --global-colors-charade: #282a36;
     --global-colors-elephant: #0c3636;
-    --global-colors-cape: #4b5555;
+    --global-colors-cape: #3b454e;
     --global-colors-nevada: #656f6f;
     --global-colors-pewter: #999c9c;
     --global-colors-mandy: #6118b2;
@@ -37,9 +37,9 @@
     --global-font-size-big: 48px;
     --global-font-size-larger: 32px;
     --global-font-size-large: 24px;
-    --global-font-size-default: 18px;
-    --global-font-size-medium: 16px;
-    --global-font-size-small: 14px;
+    --global-font-size-default: 16px;
+    --global-font-size-medium: 14px;
+    --global-font-size-small: 12px;
 
     --global-mobile-nav-button-size: 40px;
 
@@ -50,6 +50,7 @@
     --global-sidebar-spacing: 20px;
     --global-docs-top-spacing: 30px;
     --global-container-spacing-default: 60px;
+
     @include media(tablet up) {
         --global-container-spacing-default: 100px;
     }

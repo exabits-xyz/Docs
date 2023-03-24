@@ -43,6 +43,7 @@
             a.menu__link--active {
                 color: var(--global-colors-mandy);
                 background-color: transparent;
+                font-weight: 700;
             }
 
             .menu__list-item-collapsible:hover {
@@ -56,12 +57,13 @@
                 font-family: var(--global-font-family);
                 padding-left: 0;
                 padding-right: 25px;
-                color: var(--global-colors-cape);
+                color: rgba(92, 105, 117, 1); // var(--global-colors-cape);
                 transition: {
                     property: color;
                     timing-function: ease-out;
                     duration: 0.3s;
                 }
+                transition: all 0.3s ease-out;
                 position: relative;
 
                 &::after {

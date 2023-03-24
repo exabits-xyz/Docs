@@ -1,0 +1,83 @@
+#__docusaurus {
+    .pagination-nav {
+        border-top: 1px solid var(--global-colors-sapling);
+        margin-top: 60px;
+        padding-top: 30px;
+
+        &__link {
+            border-radius: 0px;
+            transition: {
+                property: all;
+                timing-function: ease-out;
+                duration: 0.3s;
+            }
+            position: relative;
+            align-items: flex-end;
+            color: var(--global-colors-elephant);
+            transition-duration: 0.15s;
+            &:hover {
+                color: rgba(52, 109, 219, 1);
+                box-shadow: 0px 12px 13px rgba(0, 0, 0, 0.02);
+                transform: translateY(-2px);
+                .pagination-nav__label {
+                    color: rgba(52, 109, 219, 1);
+                }
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                width: 30px;
+                height: 30px;
+
+                content: "«";
+                line-height: 30px;
+                font-size: 30px;
+                text-align: center;
+                top: 50%;
+                margin-top: -15px;
+            }
+            &--prev {
+                padding-left: 50px;
+
+                &::before {
+                    left: 10px;
+                }
+            }
+            &--next {
+                padding-right: 50px;
+                .pagination-nav__label::after {
+                    display: none;
+                }
+                &::before {
+                    right: 10px;
+                    content: "»";
+                }
+            }
+        }
+
+        &__sublabel {
+            color: rgba(136, 153, 168, 1);
+            font-size: 12px;
+            margin-bottom: 0.5rem;
+        }
+
+        &__label {
+            @extend .paragraph-size--default;
+            display: block;
+            width: 100%;
+            font-weight: 600;
+            text-overflow: ellipsis;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            line-height: 24px;
+            color: rgba(59, 69, 78, 0.8);
+            &::before {
+                display: none;
+            }
+        }
+    }
+
+    .margin-vert--lg {
+        margin: 0 !important;
+    }
+}

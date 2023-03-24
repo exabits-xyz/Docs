@@ -35,10 +35,6 @@
         }
     }
 
-    strong {
-        color: var(--global-colors-elephant);
-    }
-
     blockquote {
         @extend .paragraph-size--medium;
         background-color: var(--global-colors-egg);
@@ -82,6 +78,6 @@
         }
     }
     h2 {
-        --ifm-h2-font-size: 1.6rem;
+        --ifm-h2-font-size: 1.5rem;
     }
 }
