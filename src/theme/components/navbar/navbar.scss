@@ -5,8 +5,8 @@
     background-color: var(--global-colors-white);
     padding: 0;
     display: flex;
-    box-shadow: 0 2px 3px var(--global-shadow-elephant);
-
+    // box-shadow: 0 2px 3px var(--global-shadow-elephant);
+    border-bottom: 1px solid rgba(227, 232, 237, 1);
     &__inner {
         padding: 0 var(--global-gutter);
         margin: 0 auto;

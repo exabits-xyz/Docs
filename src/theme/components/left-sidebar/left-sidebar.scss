@@ -1,10 +1,10 @@
 %left-sidebar {
     width: var(--global-sidebar-width);
     padding: 0;
-    background-color: var(--global-colors-cararra);
+    // background-color: var(--global-colors-cararra);
     display: none;
     margin-top: calc(-1 * var(--global-header-height));
-    border-right: none;
+    border-right: 1px solid rgba(227, 232, 237, 1);
     min-height: 100vh;
 
     > * {
@@ -29,6 +29,7 @@
     }
 
     .menu {
+        scrollbar-gutter: auto;
         padding: var(--global-docs-top-spacing) var(--global-menu-gutter);
 
         &--show {
@@ -42,7 +43,7 @@
 
             a.menu__link--active {
                 color: var(--global-colors-mandy);
-                background-color: transparent;
+                background-color: #f0f6ff;
                 font-weight: 700;
             }
 
@@ -55,8 +56,9 @@
                 letter-spacing: 0.4px;
                 font-weight: 500;
                 font-family: var(--global-font-family);
-                padding-left: 0;
+
                 padding-right: 25px;
+                padding-left: 10px;
                 color: rgba(92, 105, 117, 1); // var(--global-colors-cape);
                 transition: {
                     property: color;
@@ -80,17 +82,18 @@
 
                 &:hover {
                     color: var(--global-colors-mandy);
-                    background-color: transparent;
+                    background-color: rgba(236, 239, 241, 1);
                 }
             }
 
             .theme-doc-sidebar-item-category-level-1 {
                 > div > a.menu__link {
-                    @extend .paragraph-size--default;
+                    @extend .paragraph-size--medium;
                     font-weight: bold;
-                    color: var(--global-colors-elephant);
+                    // color: var(--global-colors-elephant);
+                    color: #525860;
                     font-family: var(--global-font-family-alternative);
-
+                    text-transform: uppercase;
                     &::after {
                         background-size: 24px;
                     }
