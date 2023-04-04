@@ -63,13 +63,14 @@
 
         &__label {
             @extend .paragraph-size--default;
-            display: block;
+            display: inline;
             width: 100%;
             font-weight: 600;
             text-overflow: ellipsis;
-            overflow-y: hidden;
-            overflow-x: hidden;
+            overflow: hidden;
             line-height: 24px;
+            height: 24px;
+
             color: rgba(59, 69, 78, 0.8);
             &::before {
                 display: none;

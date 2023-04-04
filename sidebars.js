@@ -33,6 +33,8 @@ const sidebars = {
                 "background/why-decentralized-computing-matters",
                 "background/why-decentralized-computing-can-lower-the-cost-of-ai",
                 "background/what-is-the-difference-between-computing-and-storage",
+                "background/blockchain-the-legislative-technology",
+                "background/singularity-unleashed-the-emergence-of-superintelligence",
             ],
             collapsible: true,
             collapsed: false,
