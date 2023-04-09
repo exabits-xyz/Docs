@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Manrope:300,400,500,700");
+
+:root {
+    --global-font-family: "Manrope", sans-serif;
+    --global-font-family-alternative: "Manrope", monospace;
+    --global-block-family-code: "Manrope", monospace;
+    --ifm-font-family-base: "Manrope", -apple-system, Segoe UI, Roboto, Ubuntu,
+        Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI",
+        Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol";
+    --global-container-default: 1330px;
+    --global-container-medium: 1094px;
+    --global-container-small: 867px;
+    --global-container-smaller: 768px;
+    --global-container-tiny: 640px;
+
+    --global-gutter: 25px;
+    --global-menu-gutter: 20px;
+    --global-colors-charade: #282a36;
+    --global-colors-elephant: #0c3636;
+    --global-colors-cape: #3b454e;
+    --global-colors-nevada: #656f6f;
+    --global-colors-pewter: #999c9c;
+    --global-colors-mandy: #6118b2;
+    --global-colors-picton: #44aede;
+    --global-colors-chamois: #f5dd64;
+    --global-colors-egg: #f7efc7;
+    --global-colors-cararra: #f4f3f0;
+    --global-colors-sapling: #dadde1;
+    --global-colors-white: #ffffff;
+
+    --global-shadow-elephant: rgba(0, 0, 0, 0.1);
+
+    --global-font-size-gigantic: 132px;
+    --global-font-size-enormous: 100px;
+    --global-font-size-huge: 64px;
+    --global-font-size-big: 48px;
+    --global-font-size-larger: 32px;
+    --global-font-size-large: 24px;
+    --global-font-size-default: 16px;
+    --global-font-size-medium: 14px;
+    --global-font-size-small: 14px;
+
+    --global-mobile-nav-button-size: 40px;
+
+    --global-border-radius: 6px;
+
+    --global-header-height: 60px;
+    --global-sidebar-width: 320px;
+    --doc-sidebar-width: 320px !important;
+    --global-sidebar-spacing: 20px;
+    --global-docs-top-spacing: 30px;
+    --global-container-spacing-default: 60px;
+
+    @include media(tablet up) {
+        --global-container-spacing-default: 100px;
+    }
+}
+
+.heading-size {
+    &--huge {
+        font-size: var(--font-size, var(--global-font-size-larger));
+        line-height: var(--line-height, 1.2);
+
+        @include media(tablet up) {
+            --font-size: var(--global-font-size-huge);
+            --line-height: 1.03;
+        }
+    }
+
+    &--big {
+        font-size: var(--font-size, var(--global-font-size-larger));
+        line-height: var(--line-height, 1.2);
+
+        @include media(tablet up) {
+            --font-size: var(--global-font-size-big);
+            --line-height: 1.13;
+        }
+    }
+
+    &--large {
+        font-size: var(--font-size, var(--global-font-size-large));
+        line-height: var(--line-height, 1.13);
+
+        @include media(tablet up) {
+            --font-size: var(--global-font-size-larger);
+            --line-height: 1.2;
+        }
+    }
+}
+
+.paragraph-size {
+    &--large {
+        font-size: var(--global-font-size-large);
+        line-height: 1.2;
+    }
+
+    &--default {
+        font-size: var(--global-font-size-default);
+        line-height: 1.56;
+    }
+
+    &--medium {
+        font-size: var(--global-font-size-medium);
+        line-height: 1.7;
+    }
+
+    &--small {
+        font-size: var(--global-font-size-small);
+        line-height: 1.56;
+    }
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+    --global-color-primary: #25c2a0;
+    --global-color-primary-dark: #21af90;
+    --global-color-primary-darker: #1fa588;
+    --global-color-primary-darkest: #1a8870;
+    --global-color-primary-light: #29d5b0;
+    --global-color-primary-lighter: #32d8b4;
+    --global-color-primary-lightest: #4fddbf;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}

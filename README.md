@@ -1,13 +1,43 @@
-# Introduction
+# exaBITS Docs Page
+
 We are on the verge of the next digital revolution, and the future of the internet is in the hands of the people. Current cloud services can be costly, with questionable security. Imagine running an application on a new network controlled by the users. The exaBITS platform allows participants around the globe to secure this new network by contributing to it. By combining everyone’s resources, we can reduce computing costs up to 80%. An option that is economical, privacy protected, and leverages the people’s everyday power consumption. A decentralized, distributed data center in the comfort of your own home, that generates passive income. With this, we welcome you to exaBITS.
 
-## One Sentence
-The exaBITS platform is a decentralized computing network powered by blockchain. It provides economical, privacy protected and low-emissions solutions to Web3.0, AI, metaverse and other computationally intensive applications.
+### Start
 
+exaBITS Docs Page is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-## A Web3 Model
-* Consumers use exaBITS Computing Machines to contribute computing power to a pooled computing network and generate passive income. 
-* Developers and enterprises obtain computation on demand from exaBITS Cloud that is safer, cheaper and faster than the offerings of leading cloud providers.
+### Installation
 
-## Mine
-By deploying a simple device in your home or office, individuals can provide the city with miles of high-quality and low-emissions computing service for millions of users and earn a new cryptocurrency, XBIT.
+```
+$ yarn
+```
+
+### Local Development
+
+```
+$ yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Depoly
+
+Build docker image.
+
+```
+docker image build -t docs:dev -f Dockerfile .
+```
+
+Docker run
+
+```
+docker run -p 3000:3003 docs:dev
+```
